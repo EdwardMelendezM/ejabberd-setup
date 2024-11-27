@@ -83,7 +83,7 @@ sudo systemctl restart nginx
 sudo systemctl restart ejabberd
 
 # Step 9: Add admin user
-sudo /opt/ejabberd-24.10/bin/ejabberdctl register admin localhost password
+sudo /opt/ejabberd-24.10/bin/ejabberdctl register admin domain.com password
 
 # Step 10: Open
 echo "Open http://localhost:5280/admin/ in your browser and login with admin and password"
